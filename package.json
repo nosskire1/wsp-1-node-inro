@@ -5,12 +5,16 @@
   "name": "wsp-1-node-inro",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   },
+  "scripts": {
+    "start": "nodemon -e njk app.js",
+    "scss": "sass --watch scss:public/css"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": ""
+
 }
